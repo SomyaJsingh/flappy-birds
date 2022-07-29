@@ -79,7 +79,7 @@ def main():
                 if label_rect_restart.collidepoint(mousepos):
                     run=False
 
-        #If game is not yet over then keep doing the stuff        
+        #If game is not over yet        
         if game_over==False:
             #Create Delta Time
             new_time=time.time()
